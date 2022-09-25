@@ -1,6 +1,7 @@
 const discord = require("discord.js");
 const fs = require("node:fs");
 const path = require("node:path");
+const mySecret = process.env['tk']
 
 const client = new discord.Client({
   intents: [
@@ -45,4 +46,4 @@ client.on("interactionCreate", async (interaction) => {
   }
 });
 
-client.login("your bot token goes here");
+client.login(process.env['tk']);

@@ -1,0 +1,26 @@
+{
+  "name": "discordjs-v14-slash-cmd-handler",
+  "version": "1.0.0",
+  "description": "This is the Slash command handler for Discord.js v14.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzAshu397/Discord.js-v14-Slash-CMD-Handler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzAshu397/Discord.js-v14-Slash-CMD-Handler/issues"
+  },
+  "homepage": "https://github.com/ItzAshu397/Discord.js-v14-Slash-CMD-Handler#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "axios": "^0.27.2",
+    "discord.js": "^14.4.0",
+    "request": "^2.88.2"
+  }
+}

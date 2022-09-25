@@ -17,10 +17,10 @@ for (const file of commandFiles) {
 
 const rest = new REST({
   version: "10",
-}).setToken("Your bot token goes here");
+}).setToken(process.env['tk']);
 
 rest
-  .put(Routes.applicationCommands("your client id goes here"), {
+  .put(Routes.applicationCommands("876753511721885738"), {
     body: commands,
   })
   .then(() => {
